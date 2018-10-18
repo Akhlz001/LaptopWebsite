@@ -13,5 +13,10 @@ namespace GamingLaptopWebsite
         {
 
         }
+
+        protected void SayHello(object sender, EventArgs e)
+        {
+            MessageLabel.Text = "Hello " + FirstNameTextBox.Text;
+        }
     }
 }
